@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "lockfileVersion": 1,
   "requires": true,
+  "scripts": {
+    "start": "cross-env PORT=10888 react-scripts start",
+    "build": "react-scripts build"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "react-hot-loader": "^4.7.1",
+    "react-scripts": "^2.1.5"
+  },
   "dependencies": {
     "@babel/code-frame": {
       "version": "7.5.5",
